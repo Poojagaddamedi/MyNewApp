@@ -1,5 +1,6 @@
 {
   "name": "mynewapp",
+  "scheme": "com.supabase",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -17,9 +18,13 @@
     "@react-navigation/stack": "^7.2.2",
     "@supabase/supabase-js": "^2.49.4",
     "expo": "~52.0.40",
+    "expo-auth-session": "^6.0.3",
     "expo-image-picker": "~16.0.6",
+    "expo-linking": "^7.0.5",
     "expo-status-bar": "~2.0.1",
+    "expo-web-browser": "^14.0.2",
     "react": "18.3.1",
+    "react-dom": "^19.1.0",
     "react-native": "0.76.7",
     "react-native-bottom-sheet": "^1.0.3",
     "react-native-dotenv": "^3.4.11",
@@ -31,7 +36,9 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
-    "@react-native-community/cli": "^18.0.0"
+    "@react-native-community/cli": "^18.0.0",
+    "@types/react": "~18.3.12",
+    "typescript": "^5.3.3"
   },
   "private": true
 }
